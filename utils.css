@@ -1,0 +1,17 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.text-center-1{
+    text-align: center;
+}
+.text-center-2{
+    text-align: center;
+}
+.text-center-3{
+    text-align: center;
+}

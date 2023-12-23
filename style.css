@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Dosis&family=IBM+Plex+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: blueviolet;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 55px;
+    padding: 0 25px 0 52px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style : none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+}
+nav ul li a:hover{
+    font-weight: bolder;    
+}
+.Search{
+    display: flex;
+    align-items: center;
+}
+.Search input{
+    width: 650px;
+    height: 27px;
+    border-radius: 4px;
+    margin: 0 26px 0 26px;
+    padding: 0 12px;
+}
+.btn{
+    /* height: 31px;
+    width: 31px; */
+    padding: 2px 2px;
+    margin: 0 1px;
+    background: blueviolet;
+    cursor: pointer;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.Category{
+    max-width: 98vw;
+    margin: 12px auto;
+    background: rgb(223, 223, 207);
+}
+.catename a{
+    text-decoration: none;
+    color: black;
+}
+.text-center .catename a:hover{
+    background-color: rgb(223, 223, 207);
+}
+.deals{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 37.3px;    
+}
+.homeApp{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 37.3px;
+}
+.mobile{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 37.3px;
+}
+.electronics{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 37.3px;
+}
+.appliance{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 37.3px;
+}
+.fashion{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 37.3px;
+}
+.toys{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 37.3px;
+}
+.grocery{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 37.3px;
+}
+.furniture{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 37.3px;
+}
+.pharmacy{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 37.3px;
+}
+
+.slider{
+    margin: 1vh auto;
+    height: 12vh;
+    width: 93vw;
+}
+.Category{
+    max-width: 98vw;
+    margin: 12px auto;
+    background: rgb(223, 223, 207);
+}
+.catename a{
+    text-decoration: none;
+    color: black;
+}
+.card-1{
+    max-width: 98vw;
+    margin: 32vh auto 1vh;
+    background: rgb(241, 241, 239);
+    border-bottom: groove rgb(223, 220, 220);
+}
+.upto a{
+    text-decoration: none;
+    color: rgb(13, 195, 13);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.text-center-1 .shopnow a:hover{
+    font: 6px;
+}
+.text-center-2{
+    font: 5px;
+    color: rgba(12, 12, 12, 0.366);
+}
+.text-center-3 .price:hover{
+    font: 6px;
+}
+.dealsoftheday{
+    display: flex;
+    height: 35vh;
+}
+.heading{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 1vw;
+    width: 8vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+}
+.topcamera{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 40px 0 60px;
+}
+.topmonitor{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 40px;
+}
+.printer{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 25px 0 40px;
+}
+.trimmer{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 40px 0 10px;
+}
+.iphone{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30px 0 10px;
+}
+.latestphones{
+    display: flex;
+    height: 35vh;
+}
+.card-2{
+    max-width: 98vw;
+    margin: 1vh auto 32vh auto;
+    background: rgb(241, 241, 239);
+    border-bottom: groove rgb(223, 220, 220);
+}
+.latestphone{
+    display: flex;
+    height: 40vh;
+}
+.heading-2{
+    display: flex;
+    justify-content: start;
+    align-items: top;
+    margin: 1vw 20vw 1vw 1vw;
+    width: 20vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 10px;
+}
+
+.s23{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 40px 0 40px;
+}
+.oppon2{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+}
+.pixel7{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px 0 5px;
+}
+.iphone14{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1px 0 1px;
+}
+.oneplus11{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 50px 0 70px;
+}
+.nothingphone{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px 0 10px;
+}
+footer{
+    height : 12vh;
+    background-color: black;
+    color: white;
+    font-size: 10;
+    font-family: 'Cabin', sans-serif;
+}
